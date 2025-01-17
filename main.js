@@ -1,9 +1,9 @@
-import WebGL from "three/addons/capabilities/WebGL.js";
+// import WebGL from "three/addons/capabilities/WebGL.js";
 import * as THREE from "three";
 // https://www.npmjs.com/package/troika-three-text
 import { Text } from "troika-three-text";
 
-if (WebGL.isWebGL2Available()) {
+// if (WebGL.isWebGL2Available()) {
 //   Initiate function or other initializations here
 //   animate();
 
@@ -92,10 +92,10 @@ function animate() {
   renderer.render(scene, camera);
 }
 renderer.setAnimationLoop(animate);
-} else {
-  const warning = WebGL.getWebGL2ErrorMessage();
-  document.getElementById("container").appendChild(warning);
-}
+// } else {
+//   const warning = WebGL.getWebGL2ErrorMessage();
+//   document.getElementById("container").appendChild(warning);
+// }
 
 // when done w text, dispose of it so no memleak
 // myScene.remove(myText)
