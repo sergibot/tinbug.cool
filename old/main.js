@@ -22,10 +22,9 @@ function init() {
   camera.position.set(0, 0, 200);
   camera.lookAt(0, 0, 0);
 
-  const light = new THREE.DirectionalLight(0xffffff, 1);
-
-  light.position.set(1, 1, 1).normalize();
-  //   const ambientLight = new THREE.AmbientLight(0xeeeeee, 1.5);
+  //   const light = new THREE.DirectionalLight(0xffffff, 1);
+  //   light.position.set(1, 1, 1).normalize();
+  const light = new THREE.AmbientLight(0xeeeeee, 1.5);
   scene.add(light);
 
   const geometry = new THREE.BoxGeometry(100, 20, 20);
