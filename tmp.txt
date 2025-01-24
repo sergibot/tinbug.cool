@@ -1,0 +1,19 @@
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/troika-three-text@0.52.3/dist/troika-three-text.esm.min.js"></script>
+        <script type="importmap">
+            {
+              "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@v0.172.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.172.0/examples/jsm/",
+				"troikaThreeText": 'https://cdn.jsdelivr.net/npm/troika-three-text@0.52.3/+esm'
+              }
+            }
+          </script> -->
+
+
+
+
+
+// if (WebGL.isWebGL2Available()) {
+//   Initiate function or other initializations here
+//   animate();
